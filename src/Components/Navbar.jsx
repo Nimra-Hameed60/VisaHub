@@ -161,7 +161,7 @@ const Navbar = () => {
               navigate("/contact");
               setMenuOpen(false);
             }}
-            className="w-full mt-4 bg-black text-white py-3 rounded-full hover:bg-blue-600"
+            className="w-full mt-4 bg-black text-white py-3 rounded-full hover:bg-blue-600 cursor-pointer"
           >
             Get Started
           </button>

@@ -12,6 +12,7 @@ import TypesSection from './Components/TypesSection';
 import FAQ from './Components/FAQ';
 import Blog from './Components/Blog';
 import About from './Components/About';
+import Contact from './Components/Contact'
 import Footer from './Components/Footer';
 
 
@@ -53,6 +54,7 @@ const Layout = () => {
         <Route path="/about" element={<About />} className='bg-white' />
         <Route path="/blog" element={<Blog />} />
         <Route path="/immigration" element={<ImmigrationSteps />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
 
       <Footer />
