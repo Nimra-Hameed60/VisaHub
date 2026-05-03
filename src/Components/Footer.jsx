@@ -40,7 +40,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-bold mb-6 text-lg md:text-2xl">Pages</h3>
             <ul className="space-y-3">
-              {['Home', 'Home 2', 'Immigration', 'Visas', 'Countries', 'Case Studies'].map(item => (
+              {['Home', 'Immigration', 'Visas', 'Countries', 'Case Studies'].map(item => (
                 <li key={item} className="hover:text-white cursor-pointer">{item}</li>
               ))}
             </ul>
@@ -66,13 +66,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="mt-10">
-            <ul className="space-y-3">
-              {['Link in Bio', 'Password Protected', 'Error 404'].map(item => (
-                <li key={item} className="hover:text-white cursor-pointer">{item}</li>
-              ))}
-            </ul>
-          </div>
+        
         </div>
 
       </div>
@@ -87,9 +81,9 @@ const Footer = () => {
           <div>
             <h3 className="text-white text-lg md:text-2xl font-semibold mb-4">Contact on</h3>
             <div className="space-y-2">
-              <p className="text-lg">
-                (91) 125 879 786 &nbsp; (+85) 578 666 333
-              </p>
+             <p className="text-lg ">
+  (91) 125 879 786 &nbsp; <br/>(+85) 578 666 333
+</p>
               <p className="text-lg hover:text-white transition cursor-pointer">
                 example@gmail.com
               </p>
@@ -111,7 +105,6 @@ const Footer = () => {
               <div className="text-sm space-y-1">
                 <p className='text-lg'><span className="text-white font-medium text-lg">Las Vegas</span> - 4th Floor, Plot No.22,145 Murphy Canyon Rd.</p>
                 <p className='text-lg'>Mon-Sat: <span className="text-white text-lg">9 AM – 6 PM</span></p>
-                <p className='text-lg'>Sunday: <span className="text-white text-lg">Closed</span></p>
               </div>
             </div>
           </div>
@@ -121,7 +114,7 @@ const Footer = () => {
         {/* Bottom Line */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 gap-4">
           <p className="text-lg">
-            Designed by <span className="text-white font-bold cursor-pointer">Webestica</span>, Powered by <span className="text-white font-bold cursor-pointer">Webflow</span>
+            Designed by <span className="text-white font-bold cursor-pointer">Nimra Hameed</span>, Powered by <span className="text-white font-bold cursor-pointer">Tanveer</span>
           </p>
 
           <div className="flex gap-4">
