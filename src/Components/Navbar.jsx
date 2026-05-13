@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../Images/Logo.png';
+import Logo from '/Logo.png';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { Link, useNavigate } from "react-router-dom";
 
@@ -11,30 +11,32 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Pages", path: "#" },
+    { name: "Abouts", path: "/about" },
+    { name: "Blog", path: "/blog" },
+    { name: "Contact", path: "/contact" },
+
     { name: "Immigration", path: "/immigration" },
-    { name: "Blog", path: "/blog" }
+    // { name: "Pages", path: "#" },
+   
   ];
 
   const dropdownItems = [
     { name: "Home", path: "/" },
-    { name: "Home 2", path: "/" },
     { name: "Immigration", path: "/immigration" },
-    { name: "Visas", path: "/visas" },
-    { name: "Countries", path: "/countries" },
-    { name: "Case Studies", path: "/case-studies" },
-    { name: "Testimonials", path: "/testimonials" },
-    { name: "Agents", path: "/agents" },
+    // { name: "Visas", path: "/visas" },
+    // { name: "Countries", path: "/countries" },
+   //  { name: "Case Studies", path: "/case-studies" },
+ //   { name: "Testimonials", path: "/testimonials" },
+    // { name: "Agents", path: "/agents" },
     { name: "Abouts", path: "/about" },
     { name: "Blog", path: "/blog" },
     { name: "Contact", path: "/contact" },
-    { name: "Privacy Policy", path: "/privacy-policy" }
+ //    { name: "Privacy Policy", path: "/privacy-policy" }
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
-      <div className="flex justify-between items-center py-5 px-6 md:px-8 lg:px-12 xl:px-8 2xl:px-32 max-w-7xl mx-auto">
+<nav className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+  <div className="flex justify-between items-center py-5 px-6 md:px-8 lg:px-12 max-w-[1400px] mx-auto">
         
         {/* Logo */}
         <div className="flex items-center cursor-pointer" onClick={() => navigate("/")}>

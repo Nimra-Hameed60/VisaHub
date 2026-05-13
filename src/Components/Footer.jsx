@@ -1,6 +1,6 @@
 import React from 'react';
 import { Send } from 'lucide-react';
-import logo from '../Images/FavIcon.ico';
+import logo from '/FavIcon.ico';
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {

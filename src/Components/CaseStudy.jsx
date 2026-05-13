@@ -2,9 +2,10 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
-import Emma from "../Images/Emma.png";
-import Jhon from "../Images/Jhon.png";
-import Rounting from "../Images/Rouinting.png";
+// Images
+import Emma from "/Emma.png";
+import Jhon from "/Jhon.png";
+import Rounting from "/Rouinting.png";
 
 const data = [
   {

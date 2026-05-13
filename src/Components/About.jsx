@@ -1,12 +1,12 @@
 import React from "react";
-import aboutimg1 from "../Images/aboutimg1.png";
-import aboutimg2 from "../Images/aboutimg2.png";
-import expert1 from '../Images/expert1.png'
-import expert2 from '../Images/expert2.png'
-import expert3 from '../Images/expert3.png'
-import expert4 from '../Images/expert4.png'
-import expert5 from '../Images/expert5.png'
-import global from '../Images/graph.png'
+import aboutimg1 from "/aboutimg1.png";
+import aboutimg2 from "/aboutimg2.png";
+import expert1 from '/expert1.png'
+import expert2 from '/expert2.png'
+import expert3 from '/expert3.png'
+import expert4 from '/expert4.png'
+import expert5 from '/expert5.png'
+import global from '/graph.png'
 
 const About = () => {
   return (

@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import VisaImg from "../Images/visa.png";
+import VisaImg from "/visa.png";
 
 const visaTypes = [
   "Business visa",

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Graph from "../Images/graph.png";
-import aboutus from "../Images/aboutus.png";
+import Graph from "/graph.png";
+import aboutus from "/aboutus.png";
 
 const AboutUS = () => {
   return (

@@ -2,12 +2,14 @@ import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
-import Cart1 from "../Images/Cart1.png";
-import Cart2 from "../Images/Cart2.png";
-import Cart3 from "../Images/Cart3.png";
-import Cart4 from "../Images/Cart4.png";
-import Cart5 from "../Images/Cart5.png";
-import Cart6 from "../Images/Cart6.png";
+// Images
+
+import Cart1 from "/Cart1.png";
+import Cart2 from "/Cart2.png";
+import Cart3 from "/Cart3.png";
+import Cart4 from "/Cart4.png";
+import Cart5 from "/Cart5.png";
+import Cart6 from "/Cart6.png";
 
 const services = [
   { title: "Visa Application Assistance", desc: "Expert guidance through every step of your visa application process.", img: Cart1 },

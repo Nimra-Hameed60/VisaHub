@@ -16,16 +16,15 @@ import Contact from './Components/Contact'
 import Footer from './Components/Footer';
 
 
-// ✅ Home Page
+//  Home Page
 const Home = () => {
   return (
     <>
-      {/* Hero Section */}
       <div className="bg-linear-to-b from-[#75b7f080] to-[#f5f5f8ad]">
         <Hero />
       </div>
 
-      <div className="bg-white">
+      <div className="bg-white pt-10">
         <AboutUS />
         <ServicesSection />
         <ImmigrationSteps />
@@ -40,7 +39,7 @@ const Home = () => {
 };
 
 
-// ✅ Layout (Navbar + Footer control)
+//  Layout (Navbar + Footer control)
 const Layout = () => {
   const location = useLocation();
   const isHome = location.pathname === "/";

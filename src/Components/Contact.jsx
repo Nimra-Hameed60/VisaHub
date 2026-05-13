@@ -1,7 +1,7 @@
 import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import contactImg from "../Images/contact-team.png";
+import contactImg from "/contact-team.png";
 import FAQ from './FAQ'
 
 const Contact = () => {

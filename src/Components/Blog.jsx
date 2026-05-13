@@ -1,6 +1,6 @@
 import React from 'react';
-import blogimg1 from '../Images/blogimg1.png'
-import blogimg2 from '../Images/blogimg2.png'
+import blogimg1 from '/blogimg1.png'
+import blogimg2 from '/blogimg2.png'
 
 const Blog = () => {
   const blogs = [
