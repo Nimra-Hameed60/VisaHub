@@ -60,7 +60,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-bold mb-6 text-lg md:text-2xl">Utility</h3>
             <ul className="space-y-3">
-              {['Style Guide', 'Instructions', 'Licenses', 'Changelog', 'Coming Soon'].map(item => (
+              {['Style Guide', 'Instructions'].map(item => (
                 <li key={item} className="hover:text-white cursor-pointer">{item}</li>
               ))}
             </ul>
